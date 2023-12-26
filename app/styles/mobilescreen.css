@@ -204,6 +204,10 @@
     margin-top: 2rem;
   }
 
+  .footer__resume-link a {
+    height: 24px;
+  }
+
   /* Footer detials (Right column) */
   .footer__details-links {
     width: 100%;
@@ -215,16 +219,18 @@
 
   .footer-link {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
+  }
+
+  .footer-link a {
+    display: inline-block;
+    height: 24px;
   }
 
   /* fab icon */
   .fab-icon-wrapper {
     position: absolute;
     right: 1rem;
-    bottom: 6rem;
+    bottom: 0rem;
   }
 
   /* ------------ */

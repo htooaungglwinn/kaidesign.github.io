@@ -452,6 +452,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   gap: 1rem;
+  position: relative;
 }
 
 .footer-link {
@@ -472,7 +473,7 @@ p {
 .fab-icon-wrapper {
   position: absolute;
   right: 4rem;
-  bottom: 6rem;
+  bottom: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
