@@ -5,8 +5,8 @@ class App {
   constructor() {
     this._createLenis();
     this._render();
-    this._createHomeIntro();
-    this._createProjects();
+    // this._createHomeIntro();
+    // this._createProjects();
   }
 
   // first, create lenis then redner lenis
@@ -21,6 +21,8 @@ class App {
   _onDocumentLoaded() {
     this.lenis.start();
     // this.lenis.render();
+    this._createHomeIntro();
+    this._createProjects();
   }
 
   _createHomeIntro() {
@@ -38,15 +40,15 @@ class App {
   }
 }
 
-// new App();
-
-// window.addEventListener("DOMContentLoaded", () => {
-//   new App();
-// });
-
 // Initialize App after the document is fully loaded
 window.addEventListener("DOMContentLoaded", () => {
   const app = new App();
   app._onDocumentLoaded(); // Start Lenis animation after the document is fully loaded
   app._render(); // Start rendering animation
 });
+
+// new App();
+
+// window.addEventListener("DOMContentLoaded", () => {
+//   new App();
+// });
