@@ -3,6 +3,7 @@
 @import "./app/styles/_utalities.css";
 
 /* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.cdnfonts.com/css/coolvetica-2");
 @import url("https://fonts.cdnfonts.com/css/switzer");
 
@@ -73,6 +74,7 @@ h2,
 h3,
 h4 {
   font-family: "Coolvetica", sans-serif;
+  /* font-family: "Switzer", sans-serif; */
   font-weight: 400;
 }
 
@@ -296,7 +298,7 @@ p {
 
 .project__details h3,
 .project__details p {
-  font-family: "Coolvetica";
+  font-family: "Switzer";
   font-weight: 300;
   font-size: 1.1rem;
   max-width: 36ch;
@@ -320,7 +322,7 @@ p {
   display: inline-block;
   text-decoration: none;
   font-family: "Switzer";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 130%;
   /* letter-spacing: 0.4px; */
   font-size: 1.1rem;
