@@ -1,5 +1,5 @@
-import HomeIntro from "./scripts/homeIntro.js";
-import Projects from "./scripts/projects.js";
+import HomeIntro from "./app/scripts/homeIntro.js";
+import Projects from "./app/scripts/projects.js";
 
 class App {
   constructor() {
