@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <meta charset="UTF-8" /> -->
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS STYLES -->
     <!-- main style -->
@@ -19,6 +19,8 @@
       media="screen and (max-width: 1000px)"
       href="./app/styles/mobilescreen.css"
     />
+    <!-- Font Loader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <title>Kai.design</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
@@ -29,6 +31,27 @@
   </head>
   <body>
     <section class="intro">
+      <div id="nav">
+        <div class="container nav_wrapper">
+          <div class="logo_container">
+            <img
+              src="./public/assets/icons/KaiBryant.svg"
+              id="brand_logo"
+              alt=""
+            />
+          </div>
+          <div class="icon_container">
+            <img
+              src="./public/assets/icons/Instagram Icon.svg"
+              alt="instagram logo image"
+            />
+            <img
+              src="../../public/assets/icons/LinkedIn Icon.svg"
+              alt="LinkedIn logo image"
+            />
+          </div>
+        </div>
+      </div>
       <!-- Titles -->
       <div class="intro__text">
         <h1 class="intro__title">
@@ -205,6 +228,14 @@
       </div>
     </footer>
 
+    <script>
+      WebFont.load({
+        custom: {
+          families: ["Coolvetica", "Switzer"],
+          urls: ["./app/styles/coolvetica.css", "./app/styles/switzer.css"],
+        },
+      });
+    </script>
     <script type="module" src="app.js"></script>
   </body>
 </html>

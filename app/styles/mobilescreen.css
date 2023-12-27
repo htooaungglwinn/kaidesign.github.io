@@ -1,8 +1,4 @@
 @media only screen and (max-width: 1000px) {
-  body {
-    overflow: hidden;
-  }
-
   /* intro text */
 
   .intro__text {
@@ -303,7 +299,7 @@
   header p {
     /* margin-left: 3rem; */
     margin-left: 0rem;
-    width: 32ch;
+    width: 100%;
   }
 
   .hero_image_wrapper .container {
@@ -361,11 +357,6 @@
   /* ------------ */
   /* BookiesPage */
   /* ------------ */
-
-  header p {
-    margin-left: 0rem;
-    width: 60ch;
-  }
 
   /* Themes */
   .themes_wrapper div {

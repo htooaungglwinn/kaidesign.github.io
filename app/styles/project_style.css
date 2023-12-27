@@ -75,13 +75,6 @@ li:first-child {
   flex-direction: row-reverse;
 }
 
-.nav_wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-}
-
 .logo_container img {
   height: 24px;
 }
